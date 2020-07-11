@@ -5,7 +5,7 @@ Predict credit risk using resampling and ensemble learning using imbalanced-lear
 
 #### Resampling
 
-Please reference credit_risk_resampling.ipynb for this section of our analysis.
+Please reference "credit_risk_resampling.ipynb" in the Starter_Code folder for this section of our analysis.
 
 We used the [imbalanced learn](https://imbalanced-learn.readthedocs.io) library to resample the LendingClub data and build and evaluate logistic regression classifiers using the resampled data.
 
@@ -60,7 +60,7 @@ For each of the above, we:
 
 #### Ensemble Learning
 
-Please reference credit_risk_ensemble.ipynb for this section of our analysis.
+Please reference "credit_risk_ensemble.ipynb" in the Starter_Code folder for this section of our analysis.
 
 In this section, we trained and compared two different ensemble classifiers to predict loan risk and evaluate each model. We used the `balanced random forest classifier` and the `easy ensemble AdaBoost classifier`.
 
