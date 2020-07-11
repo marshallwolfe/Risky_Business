@@ -75,35 +75,42 @@ We completed the following steps for each model:
 #### Questions Answered:
 
 ##### Which model had the best balanced accuracy score?
-* The two models tied.
+* The Balanced Random Forest Classifier model had the best balanced accuracy score of 0.7885.
 >
 > Balanced Random Forest Classifier: 0.7885 <br />
-> Easy Ensemble AdaBoost Classifier: 0.7885 <br />
+> Easy Ensemble AdaBoost Classifier: 0.6880 <br />
 
 ##### Which model had the best recall score?
-* The two models tied.
+* The Easy Ensemble AdaBoost Classifier had the best recall score of 1.00.
 >
 > Balanced Random Forest Classifier: 0.87 <br />
-> Easy Ensemble AdaBoost Classifier: 0.87 <br />
+> Easy Ensemble AdaBoost Classifier: 1.00 <br />
 
 ##### Which model had the best geometric mean score?
-* The two models tied.
+* The Balanced Random Forest Classifier model had the best geometric mean score of 0.78.
 >
 > Balanced Random Forest Classifier: 0.78 <br />
-> Easy Ensemble AdaBoost Classifier: 0.78 <br />
+> Easy Ensemble AdaBoost Classifier: 0.61 <br />
 
 ##### RESULTS TABLE:
 
 |   | Balanced Random Forest Classifier  | Easy Ensemble AdaBoost Classifier  |
 |---|---|---|
-| Balanced Accuracy Score  | 0.7885  | 0.7885  |
-| Recall Score (avg/total)  | 0.87  | 0.87  |
-| Geometric Mean Score (avg/total)  | 0.78  | 0.78  |
+| Balanced Accuracy Score  | 0.7885  | 0.6880  |
+| Recall Score (avg/total)  | 0.87  | 1.00  |
+| Geometric Mean Score (avg/total)  | 0.78  | 0.61  |
 
 ##### What are the top three features?
-* The top three features were total_rec_prncp, total_pymnt, and total_pymnt_inv as seen in this chart of results:
+* According to the Balanced Random Forest Classifier model, the top three features were total_rec_prncp, total_pymnt, and total_pymnt_inv as seen in this chart of results:
 
-![Features Importances](Images/Features.png)
+##### Balanced Random Forest Classifier
 
+![Random Forest Features Importances](Images/Random_Forest_Top_Features.png)
+
+* According to the Easy Ensemble AdaBoost Classifier model, the top three features were total_rec_int, last_pymnt_amnt, and issue_d_jan-2019 as seen in this chart of results:
+
+##### Easy Ensemble AdaBoost Classifier
+
+![AdaBoost Top Features](Images/AdaBoost_Top_Features.png)
 
 - - -
